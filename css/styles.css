@@ -1,0 +1,252 @@
+/*CSS font : fonts.google.com,cssfontstack.com, www.tutorialbrain.com*/
+h1{
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento";
+    font-size: 5.625rem;
+    color : #66BFBF;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    color : #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: "Montserrat";
+    color : #66BFBF;
+    
+}
+h4{
+    margin-top: 5px;
+    font-family: "Montserrat";
+    color : #66BFBF;
+    
+}
+body{
+    margin : 0px;
+    text-align: center;
+    font-family: "Merriweather",serif;
+}
+.top-container   {
+    padding-top: 100px;
+    background-color: #E4F9F5;
+    position: relative;
+}
+
+.middle-container   {
+}
+
+.bottom-container   {
+}
+.pro {
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+
+}
+.profile_photo{
+    width : 250px;
+    height : 250px;
+}
+.skill-row{
+    width : 90%;
+    margin: auto auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row2{
+    width : 90%;
+    margin: 50px auto auto auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row3{
+    width : 90%;
+    margin: 50px auto auto auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row4{
+    width : 100%;
+    margin: 10px auto auto auto;
+    text-align: center;
+    height : 300px;
+    
+}
+.skills-img1{
+    height: 90%;
+    width : 90%;
+    
+}
+.skills-img2{
+    height: 90%;
+    width : 90%;
+    
+}
+.container1-project1{
+    float:left; 
+    width:50%;
+}
+.container1-project2{
+    float:right; 
+    width:50%;
+}
+.container1-project3{
+    float:left; 
+    width:50%;
+}
+.chillies-img{
+    height: 25%;
+    width : 25%;
+    float : right;
+    margin-left: 30px;
+}
+.contact-me{
+    margin-top: 50px;
+}
+.clearfix {
+    clear:both;
+}
+.project1-explanation{
+    margin-top: 60px;;
+}
+.project2-explanation{
+    margin-top: 20px;;
+}
+.project3-explanation{
+    margin-top: 75px;;
+}
+.face-recog-hardware-img{
+    height: 40%;
+    width : 40%;
+    margin-left: 30px;
+    float: left;
+}
+.face-recog-img{
+    height: 52.5%;
+    width : 52.5%;
+    margin-left: 5px;
+}
+.employee-attendance-dashboard-img{
+    height: 93.5%;
+    width : 93.5%;
+    margin-left: 30px;
+}
+.face-mask-program1-img{
+    height: 90%;
+    width : 90%;
+    
+}
+.university-project{
+    width : 100%;
+    margin: 10px auto auto auto;
+    text-align: center;
+    position: relative;
+    height : 200px;
+}
+.university-project-container1{
+    float:left;
+    background : #fff;
+    width : 25%;
+    height : 200px;
+    position: absolute;
+    top : 0%;
+    left : 10%;
+    border-color:#66BFBF;
+    border-style: solid;
+    border-width: 3px;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 6px;
+    animation-iteration-count: 1000;
+}
+.university-project-container2{
+    float:left;
+    background : #fff;
+    width : 25%;
+    height : 200px;
+    position: absolute;
+    top : 0%;
+    left : 37.7%;
+    border-color:#66BFBF;
+    border-style: solid;
+    border-width: 3px;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 6px;
+    animation-iteration-count: 1000;
+}
+.university-project-container3{
+    float:left;
+    background : #fff;
+    width : 25%;
+    height : 200px;
+    position: absolute;
+    top : 0%;
+    left : 65.4%;
+    border-color:#66BFBF;
+    border-style: solid;
+    border-width: 3px;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 6px;
+    animation-iteration-count: 1000;
+}
+@keyframes example {
+    0% {border-color: #66BFBF;}
+    50% {border-color: #A5F1E9;}
+    100% {border-color: #66BFBF;}
+  }
+.resource-container{
+    position: relative;
+}
+.download-icon{
+    width: 3%;
+    height: 3%;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.university-project-container1-container{
+    background-color:#EEF2E6;
+    width: 95%;
+    height: 70%;
+    margin :auto;
+    margin-top: 10px;
+    position: relative;
+}
+.qrcode-hardware{
+    width: 55%;
+    height: 80%;
+    margin-top: 10px;
+    position: absolute;
+    left: 3%;
+}
+.digital-clock-img{
+    width: 55%;
+    height: 80%;
+    margin-top: 10px;
+    position: absolute;
+    left: 23%;
+}
+.qrcode-android{
+    width: 30%;
+    height: 85%;
+    margin-top: 10px;
+    position: absolute;
+    right :3%;
+}
+.university-project-title{
+    color:#66BFBF;
+}
+.videoProduk{
+    margin-left:30px;
+}
