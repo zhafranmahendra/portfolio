@@ -26,6 +26,7 @@ body{
     margin : 0px;
     text-align: center;
     font-family: "Merriweather",serif;
+    background-color: #EEE3CB;
 }
 .top-container   {
     padding-top: 100px;
@@ -127,18 +128,13 @@ body{
 .face-recog-hardware-img{
     height: 40%;
     width : 40%;
-    margin-left: 30px;
+    margin-left: 35px;
     float: left;
 }
 .face-recog-img{
     height: 52.5%;
     width : 52.5%;
     margin-left: 5px;
-}
-.employee-attendance-dashboard-img{
-    height: 93.5%;
-    width : 93.5%;
-    margin-left: 30px;
 }
 .face-mask-program1-img{
     height: 90%;
@@ -154,7 +150,7 @@ body{
 }
 .university-project-container1{
     float:left;
-    background : #fff;
+    background-color: #EEE3CB;
     width : 25%;
     height : 200px;
     position: absolute;
@@ -164,13 +160,13 @@ body{
     border-style: solid;
     border-width: 3px;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 2s;
     border-radius: 6px;
     animation-iteration-count: 1000;
 }
 .university-project-container2{
     float:left;
-    background : #fff;
+    background-color: #EEE3CB;
     width : 25%;
     height : 200px;
     position: absolute;
@@ -180,13 +176,13 @@ body{
     border-style: solid;
     border-width: 3px;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 2s;
     border-radius: 6px;
     animation-iteration-count: 1000;
 }
 .university-project-container3{
     float:left;
-    background : #fff;
+    background-color: #EEE3CB;
     width : 25%;
     height : 200px;
     position: absolute;
@@ -196,13 +192,13 @@ body{
     border-style: solid;
     border-width: 3px;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 2s;
     border-radius: 6px;
     animation-iteration-count: 1000;
 }
 @keyframes example {
     0% {border-color: #66BFBF;}
-    50% {border-color: #A5F1E9;}
+    50% {border-color: #3893b9;}
     100% {border-color: #66BFBF;}
   }
 .resource-container{
@@ -249,4 +245,37 @@ body{
 }
 .videoProduk{
     margin-left:30px;
+}
+.qrcode-body{
+    background-color: #EEE3CB;
+}
+.qrcode-top-container{
+    height: 70px;
+    background-color: #E4F9F5;
+    margin:0px;
+}
+.university-project-title{
+    margin:0px;
+    text-align: center;
+    padding-top: 10px;
+}
+.qrcode-hardware-container{
+    width: 50%;
+    height: 300px;    
+    position: relative;
+    float: left;
+}
+.qrcode-hardware-img{
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left : 5%;
+    top:10%
+}
+.university-project-container-detailed{
+    width : 80%;
+    margin: auto auto;
+    text-align: left;
+    line-height: 2;
+    position: relative;
 }

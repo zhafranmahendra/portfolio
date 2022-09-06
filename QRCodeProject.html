@@ -11,11 +11,60 @@
         <link rel="icon" href="favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="qrcode-body">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h2>QR Code Door Lock Project</h2>
+        <div class="qrcode-top-container">
+            <h2 class="university-project-title">QR Code Door Lock Project</h2>
+        </div>
+        <div class="university-project-container-detailed">
+            <div class="qrcode-hardware-container">
+                <img class="qrcode-hardware-img" src="./images/qrcode-hardware-img.png" alt="">
+            </div>
+            <h3>Project Overview</h3>
+            <div style="text-align: justify;text-justify: inter-word;">
+                <p>
+                    This is a project for a microprocessor system course on campus with the title of QR Code 
+                    Door Lock System Development with Android Application. The main component for controlling this device 
+                    uses ESP8266 microcontroller. The hardware used includes ESP8266, Bluetooth Module, 
+                    Solenoid Door Lock, Buzzer, Button, Relay, LED. This device will be connected by bluetooth 
+                    from the user's mobile phone to communicate. If the scanned QR Code is valid, the door will be opened.
+                </p>
+            </div>
+            <div class="clearfix"></div>
+            <div style="height: 400px; ">
+                <div style="position:right;width: 50%;height: 300px;position: relative;float: right;margin-top: 0%;">
+                    <img style="width: 50%; position: absolute;right: 0%;" src="./images/android-qrcode.png" alt="">
+                    <img style="width: 50%; position: absolute;right: 43%;" src="./images/android-qrcode2.png" alt="">
+                </div>
+                <h3 style="margin-top: 4%;padding-top: 5%;">Android Application</h3>
+                <div style="margin-top: 1%;  text-align: justify;text-justify: inter-word;">
+                    <p>
+                        At first, make sure the application bluetooth on the cellphone is turned on. 
+                        This application allows the user to see the bluetooth connections 
+                        that are around. Users are required to select a bluetooth device with the code 
+                        HC-05. After connected, the user can scan the qr code according to the user's identity by clicking scan button.
+                        This application development process uses the MIT app inventor platform.
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div style="position:right;width: 50%;height: 300px;osition: relative;float: left;margin-top: 5%;">
+                <img style="width: 38%; position: absolute;left: 5%;" src="./images/qrcode-desktop-interface.png" alt="">
+            </div>
+            <div style="margin-top: 5%; padding-top: 3%;">
+                <h3>Desktop Application</h3>
+                <div style="margin-top: 1%;  text-align: justify;text-justify: inter-word;">
+                    <p>
+                        In addition to android application features, this system has desktop-based application features. 
+                        This application is used as feedback to the user regarding the successful access of the door lock. U
+                        ser identity will be displayed in the form of name and department.
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <script src="" async defer></script>
     </body>
 </html>
